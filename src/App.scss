@@ -16,3 +16,17 @@
         height: 100%;
     }
 }
+.App{
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0px;
+    width: 100%;
+    
+    
+  }
+
+  .Toastify__toast {
+    position: fixed;
+    z-index: 999999;
+  }

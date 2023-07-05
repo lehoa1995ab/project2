@@ -1,50 +1,157 @@
 {
   "users": [
     {
-      "block": true,
-      "id": 1
-    },
-    {
-      "name": "Mèo",
+      "userName": "meo",
+      "password": "1",
       "email": "123123",
       "phoneNumber": "1312",
       "block": false,
       "id": 2
     },
     {
-      "name": "Tài 121",
-      "email": "ngoctien@gmail.com",
-      "phoneNumber": "121",
-      "block": false,
+      "title": "h",
+      "author": "k",
       "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "ILUMA và VITAL C",
+      "src": "https://www.depmoingay.net.vn/wp-content/uploads/2021/05/bo-san-pham-dieu-tri-dom-nau-image-skincare-iluma-vital-c-5.jpg",
+      "price": "3553000",
+      "type": "SKINCARE",
+      "text": "Bộ 3 sản phẩm cải thiện đốm nâu Image Skincare ILUMA và VITAL C"
     },
     {
-      "name": "Tiên",
-      "email": "1312",
-      "phoneNumber": "1212",
-      "block": false,
-      "id": 4
+      "id": 2,
+      "name": "Kosé",
+      "src": "https://www.lamdieu.com/wp-content/uploads/2021/07/my-pham-nhat-ban-Kose-Sekkisei.png",
+      "price": "300000",
+      "type": "SKINCARE",
+      "text": " Kosé nổi tiếng lành tính, thành phần từ các loại thảo dược thiên nhiên, dưỡng chất quý hiếm."
     },
     {
-      "name": "Tài",
-      "email": "112",
-      "phoneNumber": "0329577177",
-      "block": false,
-      "id": 5
+      "id": 3,
+      "name": "Nước Tẩy Trang",
+      "src": "https://www.lamdieu.com/wp-content/uploads/2021/07/my-pham-nhat-ban-dhc.jpg",
+      "price": "380000",
+      "type": "SKINCARE",
+      "text": "Sản phẩm làm đẹp, chăm sóc da, thực phẩm chức năng,…"
     },
     {
-      "name": "Hương",
-      "email": "asdas",
-      "phoneNumber": "121221",
-      "block": false,
-      "id": 6
+      "id": 4,
+      "name": "Shiseido",
+      "src": "https://www.lamdieu.com/wp-content/uploads/2021/07/my-pham-nhat-ban-shiseido.jpg",
+      "price": "500000",
+      "type": "SKINCARE",
+      "text": "Shiseido là thương hiệu mỹ phẩm Nhật Bản phân khúc cao cấp quen thuộc với nhiều tín đồ làm đẹp."
     },
     {
-      "name": "1212",
-      "email": "adas",
-      "phoneNumber": "41324",
-      "block": false,
-      "id": 7
+      "id": 5,
+      "name": "CHANNEL",
+      "src": "https://www.chanel.com/images/w_0.8,h_0.8,c_crop/q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1920/rouge-allure-velvet-limited-edition-set-of-4-luminous-matte-lipsticks-4x0-12oz--packshot-default-100620-9519109668894.jpg",
+      "price": "600000",
+      "type": "MAKEUP",
+      "text": "PHIÊN BẢN GIỚI HẠN - SET 4 THỎI SON MÔI HIỆU ỨNG LÌ RẠNG RỠ"
+    },
+    {
+      "id": 6,
+      "name": "mini Maybelline",
+      "src": "https://www.boshop.vn/uploads/2019/11/29/5de092d75b858-maybelline-la-thuong-hieu-quen-thuoc-trong-viec-lam-dep.png",
+      "price": "320000",
+      "type": "MAKEUP",
+      "text": "“Không có người phụ nữ xấu, chỉ có người phụ nữ không biết làm đẹp”"
+    },
+    {
+      "id": 7,
+      "name": " Vacosi ",
+      "src": "https://www.vacosi.com/upload/sukien/comoi/111.jpg",
+      "price": "577000",
+      "type": "MAKEUP",
+      "text": "Lông cọ được làm từ sợi nhân tạo cao cấp mềm mại, không làm tổn thương ."
+    },
+    {
+      "id": 8,
+      "name": "12jkfshb12",
+      "src": "https://i.vietgiaitri.com/2018/10/16/trang-diem-di-hoc-nhung-san-pham-makeup-danh-cho-lua-tuoi-teen-c32328.jpg",
+      "price": "17000",
+      "type": "MAKEUP",
+      "text": "Bảng phấn mắt Mad For Matte Eyeshadow Palette Nud Mood này chứa 10 màu "
+    },
+    {
+      "id": 9,
+      "name": "Stantal",
+      "src": "https://kanereviews.com/wp-content/uploads/2022/03/fragrance-la-gi.jpg",
+      "price": "500",
+      "type": "FRAGRANCE",
+      "text": "Hương thơm Stantal 33 là sự kết hợp hoàn hảo của gỗ thu hút được sự yêu thích của cả nam và nữ."
+    },
+    {
+      "id": 10,
+      "name": "Gucci",
+      "src": "https://images.squarespace-cdn.com/content/v1/53883795e4b016c956b8d243/1597904060149-RDC3AZKTZS0UFC5T8YWQ/chup-anh-san-pham-gucci.jpg",
+      "price": "500000",
+      "type": "FRAGRANCE",
+      "text": "Nước hoa là nơi giao thoa giữa hương thơm và cảm xúc"
+    },
+    {
+      "id": 11,
+      "name": "NƯỚC HOA SÀI GÒN",
+      "src": "https://myphamvina.net/uploads/product/2495/NHSG5.jpg",
+      "price": "500",
+      "type": "FRAGRANCE",
+      "text": "Lưu lại ký ức của mọi người về một mùi hương cổ điển, nhưng vô cùng tinh tế"
+    },
+    {
+      "id": 12,
+      "name": "Burberry",
+      "src": "https://hanghieusales.com/wp-content/uploads/2020/07/nuoc-hoa-burberry-for-women-e1587395062365.jpg",
+      "price": "500",
+      "type": "FRAGRANCE",
+      "text": " Phương pháo ép lấy nước: vỏ trái cây ép lấy chất lỏng,giữ được hương thơm tươi mát ."
+    },
+    {
+      "id": 13,
+      "name": "Mỹ Phẩm Vi Sinh",
+      "src": "https://myphamvisinh.vn/wp-content/uploads/2023/05/combo-nguoi-moi-4.png.webp",
+      "price": "305000",
+      "type": "HOT",
+      "text": "Mỹ phẩm vi sinh tự hào là đơn vị cung cấp các sản phẩm làm đẹp từ thiên nhiên"
+    },
+    {
+      "id": 14,
+      "name": "Sioris",
+      "src": "https://cf.shopee.vn/file/99efa1d089204fc9873d6b416d49998e",
+      "price": "578000",
+      "type": "HOT",
+      "text": "Bộ mỹ phẩm bán chạy nhất của Sioris dưỡng da hiệu quả"
+    },
+    {
+      "id": 15,
+      "name": "alya skin",
+      "src": "https://sheis.vn/wp-content/uploads/2021/10/cach-phan-biet-my-pham-that-gia-1.jpg",
+      "price": "170000",
+      "type": "HOT",
+      "text": "Bảo vệ làn da, tránh khiến da bị tổn thương, kích ứng, xấu xí."
+    },
+    {
+      "id": 16,
+      "name": "OHUI",
+      "src": "https://tiki.vn/blog/wp-content/uploads/2023/01/1NMrF1MSOPBnwDEKTIcbeQFyU8AcAE1ae41d9GVL93cIZ4zbOh3TGvAbWV-Ua4VKV87sBXrT9evJvpBSQEk9faN01jM_Mj2JAa-0v1I83uW58g2N0N5Pa3XbhRM9qND_Wpx25xclK_SVxuJ7nwml6GQiKSOE-BDlg-n4UfcFzQfJXV-Z8DgygJKdwFUzPw.jpg",
+      "price": "200000",
+      "type": "HOT",
+      "text": "OHUI là dòng mỹ phẩm cao cho phái đẹp trên toàn thế giới . "
+    }
+  ],
+  "cart": [
+    {
+      "id": 16,
+      "name": "OHUI",
+      "src": "https://tiki.vn/blog/wp-content/uploads/2023/01/1NMrF1MSOPBnwDEKTIcbeQFyU8AcAE1ae41d9GVL93cIZ4zbOh3TGvAbWV-Ua4VKV87sBXrT9evJvpBSQEk9faN01jM_Mj2JAa-0v1I83uW58g2N0N5Pa3XbhRM9qND_Wpx25xclK_SVxuJ7nwml6GQiKSOE-BDlg-n4UfcFzQfJXV-Z8DgygJKdwFUzPw.jpg",
+      "price": "200000",
+      "type": "HOT",
+      "text": "OHUI là dòng mỹ phẩm cao cho phái đẹp trên toàn thế giới . "
     }
   ]
 }
